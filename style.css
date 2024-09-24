@@ -1,0 +1,15 @@
+.container{
+    font-style:normal;
+    font-size: bold white;
+}
+.container-fluid{
+    background-color: rgb(48, 45, 240);
+    border-radius: 20px;
+}
+.border{
+    display: inline-block;
+    width: 900px;
+    height: 700px;
+    margin: black 30px;
+}
+

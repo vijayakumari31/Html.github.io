@@ -1,0 +1,159 @@
+<style>
+    h1{
+        background-color: aqua;
+        margin: 5px;
+        padding: 5px;
+    }
+    .container1{
+        display: flex;
+        flex-direction: row;
+        background-color: blue;
+        padding: 10px;
+        width:250px;
+        flex-wrap: wrap;
+    }
+    .container2{
+        display:grid;
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 100px 100px 100px;
+        padding: 10px;
+        padding-top: 50px;
+    }
+    .one{
+        background-color: rgb(130, 186, 235);
+    }
+    .two{
+        background-color: rgb(231, 191, 139);
+    }
+    .three{
+        background-color: aqua;
+    }
+    .four{
+        background-color: aquamarine;
+    }
+    .five{
+        background-color: rgb(226, 226, 125);
+    }
+    .six{
+        background-color: rgb(226, 226, 60);
+    }
+    .seven{
+        background-color: rgb(131, 125, 125);
+    }
+    .eight{
+        background-color: blanchedalmond;
+    }
+    .container3{
+           color: white;
+           
+    }
+    .blue{
+        background-color: blue;
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        position: static;
+    }    
+    .yellow{
+        background-color: rgb(217, 255, 0);
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        position: static;
+       
+    }
+    .green{
+        background-color:greenyellow;
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        position:relative;
+        left: 50px;
+        top: 50px;
+        z-index:5;
+    }
+    .red{
+        background-color: red;
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        position:static;
+        z-index: 2;
+    }
+    .container4{
+        margin-top: 100px;
+        margin-left: 50px;
+        border:solid black 5px;
+        background-color: blue;
+        width: 150px;
+        height: 150px;
+        position: relative;
+    }
+    .h2{
+        position:absolute;
+        left: 50px;
+        top: 50px;
+    }
+    .h5{
+        position: fixed;
+        font: size 50px;
+        left: 100px;
+        top: 100px;
+    
+    }
+</style>
+
+
+<h2>display-flex</h2>
+<div class="container1">
+    <h1>Html</h1>
+    <h1>css</h1>
+    <h1>Js</h1>
+    <h1>Bts</h1>
+    <h1>Node</h1>
+    <h1>two</h1>
+    <h1>one</h1>
+    <h1>six</h1>
+    <h1>ten</h1>
+    <h1>four</h1>
+
+</div>
+
+<body>
+    <h2>display-grid</h2>
+<div class="container2">
+    <p>
+    <div class="one">A1</div>
+    <div class="two">A2</div>
+    <div class="three">A3</div>
+    <div class="four">A4</div>
+    <div class="five">A5</div>
+    <div class="six">A6</div>
+    <div class="seven">A7</div>
+    <div class="eight">A8</div>
+    </p>
+
+    <p>
+        <h2>Position</h2>
+        <h4>1.Static</h4>
+        <div class="container3">
+           <div class="blue">Blue</div>
+           <div class="yellow">Yellow</div>
+           <h4 style="color: black;">2.Relative</h4> 
+           <div class="green">Green</div>
+           <div class="red">Red</div>
+        </div>
+    </p>
+    
+    <p>
+      <h4>3.Absolute</h4>  
+      <div class="container4">
+        <div>
+        <h2>Hi</h2>
+        </div>
+      </div>
+    </p>
+
+       
+</div>
+</body>
